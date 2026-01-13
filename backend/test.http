@@ -1,0 +1,11 @@
+POST http://localhost:3000/schedule
+Content-Type: application/json
+
+{
+  "algorithm": "FCFS",
+  "tasks": [
+    { "name": "T1", "arrival": 0, "burst": 5 },
+    { "name": "T2", "arrival": 1, "burst": 3 },
+    { "name": "T3", "arrival": 2, "burst": 8 }
+  ]
+}
